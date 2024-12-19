@@ -2,6 +2,7 @@ package Actividad1;
 
 public class esPalindromo {
 	public static boolean validPalindrome(String s) {
+		//Álvaro Redondo Rubio
 	       for (int i = 0, j = s.length() - 1; i < j; i++, j--) {
 	           if (s.charAt(i) != s.charAt(j)) {
 	               return false;
